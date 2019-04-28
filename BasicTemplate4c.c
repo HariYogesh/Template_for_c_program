@@ -24,7 +24,7 @@ int main(int c,int **a)// command line argument for taking file name
 		fprintf(fp,"#include<stdio.h>\nint main()\n{\n\nreturn 0;\n}\n");
 		fclose(fp);
 	}
-	execlp("vi","vi","m.c",NULL);/* open the file for user operation*/
+	execlp("vi","vi",s,NULL);/* open the file for user operation*/
 		
 
 		
